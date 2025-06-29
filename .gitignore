@@ -1,0 +1,7 @@
+.env
+flask_session
+*.csv
+myenv/
+migrations
+.DS_Store
+venv/
