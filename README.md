@@ -1,8 +1,6 @@
 Pager-RX: Intelligent Prescription Guidance Chatbot
 
-Welcome to the Pager-RX project! 🎉 This prototype demonstrates how to build an intelligent prescription management chatbot using Large Language Models (LLMs), vector databases, and Streamlit for an intuitive user interface.
-
-This README will guide you step-by-step from setup to understanding the core components of this application. Whether you're new to Python, LLMs, or full-stack development, this project provides a practical learning path.
+Welcome to the Pager-RX project! 🎉 This prototype is an prescription management chatbot built using Large Language Models (LLMs), vector databases, and Streamlit for an intuitive user interface.
 
 GitHub Repository: https://github.com/moyin0luwa/pager-rx-bot
 
