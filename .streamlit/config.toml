@@ -1,0 +1,14 @@
+[theme]
+primaryColor = "#4E92DF"              # Blue from landing page buttons
+backgroundColor = "#FFFFFF"           # Clean white background
+secondaryBackgroundColor = "#F9FAFB"  # Tailwind-style light gray
+textColor = "#1F2937"                 # Deep gray text (almost black)
+font = "sans serif"                   # Clean, modern feel
+
+[server]
+headless = true
+enableCORS = false
+port = 8501
+
+[client]
+toolbarMode = "minimal"               # Removes "Edit App" and extras
