@@ -1,47 +1,47 @@
-Pager-RX: Intelligent Prescription Guidance Chatbot
+# Pager-RX 🤖💊  
+**Intelligent Prescription Guidance Chatbot**
 
-Welcome to the Pager-RX project! 🎉 This prototype is an prescription management chatbot built using Large Language Models (LLMs), vector databases, and Streamlit for an intuitive user interface.
+Welcome to the **Pager-RX** project! 🎉  
+This prototype is a prescription management chatbot that uses **Large Language Models (LLMs)**, **vector databases**, and **Streamlit** to deliver intelligent, real-time medication guidance.
 
-GitHub Repository: https://github.com/moyin0luwa/pager-rx-bot
+**GitHub Repository**: [github.com/moyin0luwa/pager-rx-bot](https://github.com/moyin0luwa/pager-rx-bot)
 
-🔍 About The Project
+---
 
-Pager-RX is a Prescription Management Chatbot designed to guide patients and healthcare practitioners through medication usage instructions. It pulls relevant prescription data from a structured knowledge base to deliver clear, concise, and accurate instructions.
+## 🔍 About The Project
 
-The chatbot:
+**Pager-RX** is a chatbot designed to help **patients** and **healthcare professionals** access accurate prescription usage instructions. It fetches context-rich data from a structured knowledge base (e.g., formularies, standard prescription sheets), delivering user-friendly answers powered by cutting-edge AI.
 
-Accepts user questions related to prescriptions.
+### 🎯 Core Capabilities
 
-Searches a knowledge base (PDF/text embeddings) stored in Pinecone for relevant data.
+- Accepts natural language questions related to medication or prescriptions.
+- Retrieves relevant prescription data from a **Pinecone vector database**.
+- Uses **Google Gemini 2.0 Flash** to generate safe and accurate responses.
+- Offers **multi-turn conversation memory** with Langchain.
+- Runs on an intuitive **Streamlit interface** for quick testing and demos.
 
-Uses Google Gemini 2.0 Flash to generate a context-aware response.
+---
 
-Returns a brief but accurate dosage or usage recommendation.
+## ✨ Features
 
-✨ Features
+| Feature                        | Description                                                                 |
+|-------------------------------|-----------------------------------------------------------------------------|
+| 💡 AI-Powered Guidance         | Responses are generated using **Google Gemini 2.0 Flash** for accuracy.     |
+| 📚 PDF-Driven Knowledge Base  | Prescription content is embedded using **GoogleGenerativeAIEmbeddings**.    |
+| 🧠 Contextual Memory           | Multi-turn conversations supported via **Langchain memory modules**.       |
+| ⚡ Interactive UI              | Simple and responsive UI built using **Streamlit**.                         |
+| 🧪 Modular Architecture        | Codebase inspired by the **DSA_HIV** project for readability and learning. |
 
-AI-Powered Guidance: Built with Google Gemini 2.0 Flash for intelligent responses.
+---
 
-PDF-Driven Knowledge Base: Converts structured prescription data (e.g., from formularies) into searchable embeddings.
+## 🛠️ Tech Stack
 
-Contextual Memory: Supports multi-turn conversations using Langchain memory modules.
-
-Interactive UI: Built with Streamlit for rapid deployment and ease-of-use.
-
-Educational Structure: Easily understandable code and structure, based on the DSA_HIV project.
-
-🛠️ Tech Stack
-
-Python: Primary language.
-
-Streamlit: Frontend interface.
-
-Langchain: LLM framework for chaining and memory.
-
-Google Gemini 2.0 Flash: LLM for generation.
-
-Pinecone: Vector database for semantic search.
-
-GoogleGenerativeAIEmbeddings: For embedding prescription data.
-
-Dotenv: For secure API key storage.
+| Component               | Technology Used                              |
+|------------------------|-----------------------------------------------|
+| Language               | Python                                        |
+| UI Framework           | [Streamlit](https://streamlit.io)             |
+| LLM Framework          | [Langchain](https://www.langchain.com)        |
+| Embedding Provider     | GoogleGenerativeAIEmbeddings                  |
+| Vector Store           | [Pinecone](https://www.pinecone.io)           |
+| LLM                    | Google Gemini 2.0 Flash                       |
+| Secrets Management     | `python-dotenv` for `.env` loading            |
